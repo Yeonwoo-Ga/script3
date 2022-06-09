@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="loading()">
+    <img id="sajin">
+    <button onclick="change()">변경</button>
+    <button onclick="rechange()">재변경</button>
+    <script>
+        function loading(){
+            document.querySelector("#sajin").src="https://pbs.twimg.com/media/ET3bzCAUYAA6NnH.jpg";
+        }
+
+        function change(){
+            document.querySelector("#sajin").src="죠르디스카피.jpg";
+        }
+
+        function rechange(){
+            document.querySelector("#sajin").src="https://pbs.twimg.com/media/ET3bzCAUYAA6NnH.jpg";
+        }
+    </script>
+</body>
+</html>
